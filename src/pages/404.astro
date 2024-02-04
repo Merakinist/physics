@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "404 Error";
+---
+<BaseLayout pageTitle={pageTitle}>
+  <h2>Page not found</h2>
+<p>You are probably looking for something that doesn't exist yet.</p>
+<p>Try finding it again from <a href="/" data-astro-prefetch>home</a> page.</p>
+</BaseLayout>
