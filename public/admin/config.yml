@@ -8,8 +8,8 @@ media_folder: "src/assets"
 public_folder: "assets"
 
 collections:
-  - name: "blog"
-    label: "Blog"
+  - name: "postsCollection"
+    label: ""
     folder: "/src/content/posts"
     create: true
     slug: "{{slug}}"

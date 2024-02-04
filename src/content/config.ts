@@ -10,11 +10,12 @@ const postsCollection = defineCollection({
       author: z.string(),
       image: z.object({
         url: z.string(),
-        alt: z.string()
+        alt: z.string().optional()
       }),
       tags: z.array(z.string())
     })
 });
+
 // Export a single `collections` object to register your collection(s)
 export const collections = {
   posts: postsCollection,
